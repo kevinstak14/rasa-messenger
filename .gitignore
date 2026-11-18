@@ -1,0 +1,15 @@
+.dart_tool/
+.packages
+.pub-cache/
+build/
+app/build/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/android/local.properties
+app/android/.gradle/
+server/node_modules/
+server/rasa.sqlite*
+server/public/uploads/*
+!server/public/uploads/.gitkeep
+rasa.apk
+server/.env

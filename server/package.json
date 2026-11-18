@@ -1,0 +1,11 @@
+{
+  "name": "rasa-server", "version": "1.0.0", "private": true,
+  "description": "Local-first Rasa messenger server for Termux",
+  "main": "server.js", "scripts": {"start": "node server.js", "seed": "node seed.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "better-sqlite3": "^11.5.0", "cookie-parser": "^1.4.7", "cors": "^2.8.5",
+    "dotenv": "^16.4.5", "express": "^4.21.1", "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1", "socket.io": "^4.8.1"
+  }
+}
